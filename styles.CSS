@@ -1,2 +1,2 @@
 *{box-sizing:border-box}
-.container {max-width:600px}
+.container {max-width:600px;margin:0 auto}
