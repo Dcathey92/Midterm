@@ -2,15 +2,15 @@
 .container {max-width:600px;margin:0 auto;background-color:lightgrey;;padding:30px;border:4px solid darkgrey;overflow:auto;font-family:serif;}/*1 changed border color to dark grey so less stark 2 changed font to serif for readability 5 changed background color to light blue for readability*/
 .container{box-shadow: 2px 5px 5px black}/*14added a container shadow*/
 body{background-color:rgb(50, 115, 220);border: 2px dashed black;}/*17 added container border*/
-h1{text-decoration:underline;text-shadow:2px 2px 3px black}/*3added underline to pull out headline 16 added text shadow*/
+h1{text-decoration:underline;text-shadow:2px 2px 3px black;padding-bottom:15px}/*3added underline to pull out headline 16 added text shadow 36 added padding to bottom as it was too close to other content*/
 img{max-width:100%;border-bottom:2px  solid black }/*4 centered image 18 added bottom border*/
 a{text-decoration-none;color:purple;font-weight:bolder}/*5removed link underline 19 changed link color 20 chnaged link weight*/
 h4{text-decoration:underline;font-size: 18px}/*7 added authorlist underline 22 chnaged font size*/
-h2{text-decoration:underline;border-bottom:dotted;padding-bottom:20px}/*10 added underline 11 added border 35 added padding to bottom to give header more space*/
-.bob-bio{font-weight: lighter;font-style:italic;text-align:center;padding-bottom:15px}/*8changed bio to italics 9 changed font-weight 32 changed bio to align to center as it pulls out from the lists*/
+h2{text-decoration:underline;border-bottom:dotted;padding-bottom:20px;text-shadow:1px 1px darkgrey}/*10 added underline 11 added border 35 added padding to bottom to give header more space 37 added slight text shadow*/
+.bob-bio{font-weight: lighter;font-style:italic;text-align:center;padding-bottom:15px;}/*8changed bio to italics 9 changed font-weight 32 changed bio to align to center as it pulls out from the lists*/
 .pop-articles{border: 1px solid darkgrey;}/*12 added a border to column*/
 .books{border: 1px solid darkgrey;font-style:oblique;text-align: center;}/*13 added a border 21 changed titles to oblique 34 chnaged text to align to center as it looks better than the ol*/
-.byline{font-weight: bold;color:red} /*14 changed font weight 15 changed color to red*/
+.byline{font-weight: bold;color:darkred} /*14 changed font weight 15 changed color to red*/
 .publish-time{text-decoration:underline;font-weight:oblique;color:red;border-bottom:dotted;}/*22changed color,23 text decoration 24 font weight 25 and border*/
 .story-text{font-size:17px;color: darkblue;font-weight:lighter;border-bottom:2px solid darkgrey;font-variant:small-caps;line-height:25px}/*26 chnaged font size 27 changed color 28 changed font weight 29 added bottom border 30 changed font variant to small caps to differ size 31 changed line height*/
 @@media query (min-width:650px){
