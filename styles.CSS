@@ -1,5 +1,8 @@
 *{box-sizing:border-box}
 .container {max-width:600px;margin:0 auto;background-color:#eee9e9;padding:30px;border:4px solid black;overflow:auto;}
 body{background-color:rgb(50, 115, 220);}
+@@media query (min-width:650px){
+
 .pop-articles{width:50%;float:right;overflow:auto;padding-left:20px}
 .books {width:50%;float:left;overflow:auto;padding-right:20px}
+]
