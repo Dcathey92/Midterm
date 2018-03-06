@@ -1,5 +1,5 @@
 *{box-sizing:border-box}
 .container {max-width:600px;margin:0 auto;background-color:#eee9e9;padding:20px;border:4px solid black}
 body{background-color:rgb(50, 115, 220);;}
-.pop-articles{float:left;overflow:auto;padding:10px}
-.books {padding:10px;overflow:auto}
+.pop-articles{float:left;overflow:auto;padding:11px;width:50%}
+.books {padding:1px;margin:1px;width:50%;}
