@@ -6,13 +6,13 @@ h1{text-decoration:underline;text-shadow:2px 2px 3px black}/*3added underline to
 img{max-width:100%;border-bottom:2px  solid black }/*4 centered image 18 added bottom border*/
 a{text-decoration-none;color:purple;font-weight:bolder}/*5removed link underline 19 changed link color 20 chnaged link weight*/
 h4{text-decoration:underline;font-size: 18px}/*7 added authorlist underline 22 chnaged font size*/
-h2{text-decoration:underline;border-bottom:dotted}/*10 added underline 11 added border*/
-.bob-bio{font-weight: lighter;font-style:italic}/*8changed bio to italics 9 changed font-weight*/
+h2{text-decoration:underline;border-bottom:dotted;padding-bottom:20px}/*10 added underline 11 added border 35 added padding to bottom to give header more space*/
+.bob-bio{font-weight: lighter;font-style:italic;text-align:center;padding-bottom:15px}/*8changed bio to italics 9 changed font-weight 32 changed bio to align to center as it pulls out from the lists*/
 .pop-articles{border: 1px solid darkgrey;}/*12 added a border to column*/
-.books{border: 1px solid darkgrey;font-style:oblique;}/*13 added a border 21 changed titles to oblique*/
+.books{border: 1px solid darkgrey;font-style:oblique;text-align: center;}/*13 added a border 21 changed titles to oblique 34 chnaged text to align to center as it looks better than the ol*/
 .byline{font-weight: bold;color:red} /*14 changed font weight 15 changed color to red*/
 .publish-time{text-decoration:underline;font-weight:oblique;color:red;border-bottom:dotted;}/*22changed color,23 text decoration 24 font weight 25 and border*/
-.story-text{font-size:17px;color: darkblue;font-weight:lighter;border-bottom:2px solid darkgrey;}/*26 chnaged font size 27 changed color 28 changed font weight 29 added bottom border*/
+.story-text{font-size:17px;color: darkblue;font-weight:lighter;border-bottom:2px solid darkgrey;font-variant:small-caps;line-height:25px}/*26 chnaged font size 27 changed color 28 changed font weight 29 added bottom border 30 changed font variant to small caps to differ size 31 changed line height*/
 @@media query (min-width:650px){
 
 .pop-articles{width:50%;float:right;overflow:auto;padding-left:20px}
